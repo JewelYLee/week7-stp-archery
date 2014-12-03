@@ -1,0 +1,109 @@
+/* navbar */
+img.logo {
+    position: absolute;
+    height: 150px;
+    padding: 30px;
+}
+header h1 {
+	color: black;
+	font-family: 'Syncopate', sans-serif;
+	font-weight: 300;
+	line-height: 300%;
+	margin-right: 40px;
+    float: right;
+}
+
+/* navbar */
+nav ul {
+    width: 95%; 
+	color: #888888;
+	display: table;
+    text-align: right;
+}
+nav ul li {
+    border-right: solid #9edb24;
+    display: inline;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+}
+/* nested list inside navbar. Drop-down menu*/
+nav ul li ul {
+    display: none;
+    position: absolute;
+    z-index: 1000; 
+	top: 50px;
+    list-style: none;
+}
+nav ul li:hover ul { display: block}
+nav ul li ul li {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+}
+nav a, li {
+    font-family: 'Syncopate', sans-serif;
+	font-weight: 300;
+	line-height: 140%;
+	margin:10px;
+	padding:0;
+}
+nav a:link { color: #777777; text-decoration: none }
+nav a:visited { color: #777777; text-decoration: none }
+nav a:hover { color: #BA1027; text-decoration: none; background: #dbfab3}
+nav a:active { color: #777777; text-decoration: none }
+nav ul :hover { color: #BA1027; text-decoration: none }
+nav ul li ul li a:hover { background: #dbfab3; }
+
+/* main content*/
+.content {
+    background: #D6D6D6;
+    position: relative;
+    width:  100%;
+    height: auto;
+    top: 30px;
+    bottom: 30px;
+    padding: 0px 20px 20px 20px;
+}
+h3 {
+	color: black;
+	font-family: 'Lato', sans-serif;
+    font-size: 24px;
+	font-weight: 600;
+	line-height: 300%;
+	margin-left:20px;
+}
+h4 {
+	color: black;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 300%;
+	margin-left: 20px;
+}
+p, article {
+    color:#777777;
+	font-size:16px;
+	font-family:'Lato', sans-serif;
+    font-weight:100;
+	line-height:140%;
+    margin: 20px;
+}
+img {
+    position: relative;
+    width: 200px;
+    padding: 0;
+}
+iframe {
+    position: relative;
+    float: right;
+    padding-top: 80px;
+    padding-right: 50px;
+}
+footer p {
+    width: 100%;
+    position: fixed;
+    background: white;
+    font-size: 8pt;
+    bottom: 0;
+    text-align: center;
+}
