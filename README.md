@@ -1,4 +1,4 @@
 stp-archery
 ===========
 
-Homework project for HTML5-100
+Week 7 Assignment
